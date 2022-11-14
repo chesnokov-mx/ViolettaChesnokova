@@ -1,0 +1,51 @@
+.nav_menu{
+    display: flex;
+    justify-content: space-between;
+}
+.mainLink{
+    font-size: 25px;
+    letter-spacing: 5px;
+    padding: 20px 30px;
+    font-weight: 700;
+    color: #1111cf;
+    text-decoration: none;
+}
+.mainLayout_btn{
+    border: none;
+    color: #4a4a4a;
+    font-weight: 400;
+    font-size: 34px;
+    /*padding: 0 30px;*/
+    margin: 11px 30px;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    font-family: 'Jost', sans-serif;
+}
+.mainLayout_menuDIV{
+    height: calc(100vh - 76.5px);
+    background-color: #ab6abe;
+}
+.MainLayout_menuNav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 10vh 5vh;
+}
+.LinkMenu{
+    text-decoration: none;
+    font-size: 35px;
+    /*padding: 10px;*/
+    margin: 10px;
+    color: #4a4a4a;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+.LinkMenu:hover{
+    background-size: 100% 2px;
+}
+
